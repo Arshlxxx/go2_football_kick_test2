@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>GO2_tasks</name>
+  <version>2.0.0</version>
+  <description>
+    GO2_tasks: A ROS package for managing Unitree SDK2 and related tasks.
+  </description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <!-- 依赖关系 -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- 导入第三方库 -->
+  <export>
+    <build_type>catkin</build_type>
+  </export>
+</package>
+

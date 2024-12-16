@@ -1,0 +1,2 @@
+GO2_tasks
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/go2_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/go2_ws/install -G Unix Makefiles

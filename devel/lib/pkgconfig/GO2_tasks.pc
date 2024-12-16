@@ -1,0 +1,8 @@
+prefix=/home/nvidia/go2_ws/devel
+
+Name: GO2_tasks
+Description: Description of GO2_tasks
+Version: 2.0.0
+Cflags: -I/home/nvidia/go2_ws/src/GO2_tasks/include
+Libs: -L${prefix}/lib -lunitree_sdk2
+Requires: 
